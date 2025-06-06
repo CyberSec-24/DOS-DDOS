@@ -1,0 +1,9 @@
+-> In an NTP amplification attack, the attacker uses a botnet to send large UDP packets through a spoofed IP address (that mimics the victim's real IP address) to the NTP server. 
+
+-> This attack is often initiated through an NTP server that has its monlist command enabled.
+
+-> Each UDP packet triggers a request to the NTP server via the monlist command, which results in the production of large response packets. 
+
+-> The server then starts responding to the spoofed IP address immediately. 
+
+-> As a result, the victim's IP address is flooded with large responses, causing the surrounding network infrastructure to be inundated with unwanted traffic
