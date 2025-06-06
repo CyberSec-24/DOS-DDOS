@@ -9,3 +9,6 @@
 -> When the ICMP threshold is exceeded (by default, the threshold value is 1000 packets/s),
 
 -> the router rejects further ICMP echo requests from all addresses in the same security zone for the remainder of the current second as well as the next second
+
+->Reference:
+https://youtu.be/-JcdlTCqN00?si=CPCvJbWgpKIGwiND
