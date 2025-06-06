@@ -1,0 +1,19 @@
+ Random Scanning 
+-> In this technique, the infected machine (an attacker’s machine or a zombie) probes IP addresses randomly in the target network’s IP range and checks their vulnerability.
+-> On finding a vulnerable machine, it hacks and attempts to infect the vulnerable machine by installing the same malicious code installed on it.
+-> This technique generates significant traffic because many compromised machines probe and check the same IP addresses.
+
+ Hit-list Scanning
+-> Through scanning, an attacker first collects a list of potentially vulnerable machines and then creates a zombie army.
+-> Subsequently, the attacker scans the list to find a vulnerable machine. On finding one, the attacker installs malicious code on it and divides the list in half.
+-> The attacker continues to scan one half, whereas the other half is scanned by the newly compromised machine. 
+-> This process keeps repeating, causing the number of compromised machines to increase exponentially. This technique ensures the installation of malicious code on all the potentially vulnerable machines in the hit list within a short time
+
+Topological Scanning
+-> This technique uses the information obtained from an infected machine to find new vulnerable machines. 
+-> An infected host checks for URLs in the hard drive of a machine that it wants to infect. 
+-> Subsequently, it shortlists URLs and targets, and it checks their vulnerability
+
+ Local Subnet Scanning
+In this technique, an infected machine searches for new vulnerable machines in its local network, behind a firewall, by using the information hidden in the local addresses
+
