@@ -1,0 +1,8 @@
+-> In a UDP flood attack, an attacker sends spoofed UDP packets at a very high packet rate to a remote host on random ports of a target server by using a large source IP range. 
+
+-> The flooding of UDP packets causes the server to check repeatedly for nonexistent applications at the ports. 
+
+-> Consequently, legitimate applications become inaccessible by the system, and any attempts to access them return an error reply with an ICMP “Destination Unreachable” packet.
+
+-> Reference:
+https://youtu.be/dkB4lSPrKuU?si=blWEu6GP25Fadb2S
