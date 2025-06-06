@@ -1,0 +1,12 @@
+-> Zero-day DDoS attacks are attacks in which DDoS vulnerabilities do not have patches or effective defensive mechanisms.
+
+->  Until the victim identifies the threat actor’s attack strategy and deploys a patch for the exploited DDoS vulnerability,
+
+-> the attacker actively blocks all the victim’s resources and steals the victim’s data. 
+
+-> These attacks can cause severe damage to the victim’s network infrastructure and assets
+
+-> Currently, there is no versatile approach to protect networks from this type of attack.
+
+-> Reference:
+https://youtu.be/w5MV1Jeo76g?si=piisG8x23n7MGf41
