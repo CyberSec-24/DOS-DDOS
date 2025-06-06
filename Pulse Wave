@@ -1,0 +1,10 @@
+-> Pulse wave DDoS attacks are the latest type of DDoS attacks employed by threat actors to disrupt the standard operations of targets.
+
+-> Generally, DDoS attack patterns are continuous incoming traffic flows
+
+-> However, in pulse wave DDoS attacks, the attack pattern is periodic, and the attack is huge, consuming the entire bandwidth of target networks.
+
+-> Attackers send a highly repetitive strain of packets as pulses to the target victim every 10 min, and the attack session lasts for approximately an hour or some day
+
+-> A  single pulse (300 Gbps or more) is more than enough to crowd a network pipe. Recovery from such attacks is very difficult and occasionally impossible
+
