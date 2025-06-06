@@ -1,0 +1,10 @@
+-> In a Ping of Death (PoD) attack, an attacker attempts to crash, destabilize, or freeze the target system or service by sending malformed or oversized packets using a simple ping command. 
+
+-> Suppose an attacker sends a packet with a size of 65,538 bytes to the target web server. This size exceeds the size limit prescribed by RFC 791 IP, which is 65,535 bytes. 
+
+-> The reassembly process performed by the receiving system might cause the system to crash.
+
+->  In such attacks, the attacker’s identity can be easily spoofed, and the attacker might not need detailed knowledge of the target machine, except its IP address.
+
+-> Reference:
+https://youtu.be/xujnN_gW1J4?si=civbWYiQ2lsrpcyY
