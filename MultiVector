@@ -1,0 +1,5 @@
+-> In multi-vector DDoS attacks, the attacker uses combinations of volumetric, protocol, and application layer attacks to take down the target system or service. 
+
+-> The attacker quickly changes from one form of DDoS attack (e.g., SYN packets) to another (layer 7). 
+
+-> These attacks are either launched through one vector at a time or through multiple vectors in parallel to confuse a company’s IT department,
