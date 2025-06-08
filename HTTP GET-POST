@@ -1,0 +1,13 @@
+-> HTTP attacks are layer-7 attacks. HTTP clients, such as web browsers, connect to a web server through HTTP to send HTTP requests, which can be either HTTP GET or HTTP POST.
+
+-> In an HTTP GET attack, the attacker uses a time-delayed HTTP header to hold on to an HTTP connection and exhaust web-server resources. 
+
+-> The attacker never sends the full request to the target server. Consequently, the server retains the HTTP connection and waits, making it inaccessible for legitimate users
+
+-> In an HTTP POST attack, the attacker sends HTTP requests with complete headers but an incomplete message body to the target web server or application. 
+
+-> Because the message body is incomplete, the server waits for the rest of the body
+
+-> An HTTP GET/POST attack is a sophisticated layer-7 attack that does not use malformed packets, spoofing, or reflection techniques. 
+
+-> This type of attack requires less bandwidth than other attacks to bring down the targeted site or web server. 
