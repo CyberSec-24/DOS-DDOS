@@ -1,0 +1,21 @@
+-> TCP Selective Acknowledgment (SACK) panic attack is a remote attack vector in which attackers attempt to crash the target Linux machine by sending SACK packets with malformed maximum segment size (MSS). 
+
+-> This attack exploits an integer overflow vulnerability in Linux Socket Buffer (SKB) that can lead to kernel panic.
+
+-> Generally, Linux systems use the TCP SACK method, where the sender is informed about the packets that are successfully acknowledged by the receiver. 
+
+-> Therefore, the sender can retransmit only those packets that are not successfully acknowledged by the receiver
+
+-> The socket buffer can store a maximum of 17 segments. 
+
+-> Then, the acknowledged packets are instantly deleted from the linked data structure. If buffer socket tries to store more than 17 segments, it can cause kernel panic
+
+-> The TCP SACK panic attack leverages this vulnerability of the socket buffer. 
+
+-> To achieve this, attackers send specially designed SACK packets in sequence to the target server by setting the MSS to the lowest value (48 bytes).
+
+-> Thus, the socket buffer exceeds the limit and triggers integer overflow, causing a kernel panic that leads to DoS. 
+
+-> As the vulnerability lies in the kernel stack, attackers can also perform this attack against containers and virtual machines
+ 
+
