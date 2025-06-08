@@ -1,0 +1,11 @@
+-> In this type of attack, attackers create fake or spoofed TCP sessions by carrying multiple SYN, ACK, and RST or FIN packets. 
+
+-> Attackers employ this attack to bypass firewalls and perform DDoS attacks against target networks,
+
+->  Multiple SYN-ACK Spoofed Session Flood Attack 
+In this type of flood attack, attackers create a fake session with multiple SYN and multiple ACK packets, along with one or more RST or FIN packets.
+
+-> Multiple ACK Spoofed Session Flood Attack 
+In this type of flood attack, attackers create a fake session by completely skipping SYN packets and using only multiple ACK packets along with one or more RST or FIN packets. 
+Because SYN packets are not employed and firewalls mostly use SYN packet filters to detect abnormal traffic
+
