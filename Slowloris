@@ -1,0 +1,10 @@
+-> Slowloris is a DDoS attack tool used to perform layer-7 DDoS attacks to take down web infrastructure. 
+
+-> It is distinctly different from other tools in that it uses perfectly legitimate HTTP traffic to take down a target server. 
+
+-> In Slowloris attacks, the attacker sends partial HTTP requests to the target web server or application. Upon receiving the partial requests, the target server opens multiple connections and waits for the requests to complete.
+
+->  However, these requests remain incomplete, causing the target server’s maximum concurrent connection pool to be filled up and additional connection attempts to be denied.
+
+
+
