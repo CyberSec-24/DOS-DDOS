@@ -1,0 +1,11 @@
+-> Permanent DoS (PDoS) attacks, also known as phlashing, purely target hardware and cause irreversible damage to the hardware. 
+
+-> Unlike other types of DoS attacks, it sabotages the system hardware, requiring the victim to replace or reinstall the hardware. 
+
+-> The PDoS attack exploits security flaws in a device to allow remote administration on the management interfaces of the victim’s hardware, such as printers, routers, and other networking devices.
+
+->  Attackers perform PDoS attacks by using a method known as the “bricking” of a system. In this method, the attacker sends emails, IRC chats, tweets, or videos with fraudulent content for hardware updates to the victim. 
+
+-> The hardware updates are modified and corrupted with vulnerabilities or defective firmware
+
+-> 
